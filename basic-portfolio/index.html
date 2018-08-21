@@ -1,15 +1,28 @@
 <!DOCTYPE html>
 <html lang="eng">
     <head>
-        <title>Scott Hastings' Portfolio</title>
+        <title>Home | Scott Hastings</title>
+        <link rel="stylesheet" type="text/css" href="Assets/CSS/reset.css">
         <link rel="stylesheet" type="text/css" href="Assets/CSS/style.css">
-        <h1 class="box1">Scott Hastings</h1> 
-        <h3 class="box2">About | Portfolio | Contact</h3>
     </head>
 <body>
-    <div id="about-me">
+    <header id="masthead">
+        <div class="container">
+            <a href="index.html" id="logo">Scott 
+            Hastings</a>
+            <nav>
+                <a href="index.html">About</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <div id="main-container" class="container">
+    <section class="main-section">
         <h1>About Me</h1>
-        <img src="" alt="Bio Image">
+        
+        <img src="Assets/Images/portfolio-image.jpg" class="auth-image" alt="Bio Image">
         <p>
             Hey! My name is Scott Hastings. Thank you for visiting my site! A little history on myself...
             I was born in New Orleans, LA to a middle-class family. I moved to Texas at the age of 7, where 
@@ -20,9 +33,30 @@
             Hopefully you find some things you like on here that I have created, by clicking on "Portfolio" at the top,
             and feel free to message me by clicking on "Contact" as well!
         </p>
+    </section>
+
+    <section class="sidebar">
+            <div id="connect">
+                <h2>Connect With Me</h2>
+
+                <img src="Assets/Images/githublogo.jpg"
+                class="social" alt="GitHub">
+                <img src="Assets/Images/linkedinlogo.jpg"
+                class="social" alt="LinkedIn">
+                <img src="Assets/Images/facebooklogo.jpg"
+                class="social" alt="Facebook">
+
+
+            </div>    
+        </section>
     </div>
+
+
+
         <footer>
-            Copyright
+            <div class="container">
+            &copy; Copyright 2018 Scott Hastings
+            </div>
         </footer>
 
 </body>
